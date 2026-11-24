@@ -6,9 +6,9 @@ Frequency-Enhanced Learning for Fault and Anomaly Detection in Wireless Sensor N
 ## Files
 - `STGAFE_V2.py` : main pipeline (training, blocked CV, baselines, ablation, McNemar tests, timing)
 - `STGAFE_Explain.py` : node-level SHAP, local explanations and GAT attention (needs `STGAFE_V2.py`)
-- `results/raw/` : result tables (CSV) of the raw-input runs; `results/raw/explain/` SHAP and attention tables
-- `results/drift_robust/` : tables of the drift-robust runs (WSN Fault, Intel Lab)
-- `old_version/` : scripts of the first submission. They are NOT used for the reported results.
+- `results_tables.xlsx` : all result tables used in the paper (one sheet per table; `_raw` and `_drift` sheets for the raw and drift-robust runs, plus SHAP and attention tables)
+
+Scripts of the first submission were removed from this repository. They are not used for any reported result.
 
 ## Datasets (not included, download them yourself)
 - WSN Fault: https://github.com/tmoulahi/Dataset-for-WSN-fault-detection
